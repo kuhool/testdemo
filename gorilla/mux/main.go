@@ -96,3 +96,5 @@ func main() {
 	http.Handle("/", r)
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
+
+// github.com/GoAdminGroup/go-admin
